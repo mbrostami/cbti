@@ -1,2 +1,2 @@
 # cbti
-Cloud Big Table Emulator Interface
+Cloud BigTable Emulator Interface
