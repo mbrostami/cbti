@@ -2,7 +2,7 @@ package cmd
 
 import (
 	"github.com/spf13/cobra"
-	"github.com/mbrostami/cbti/internal/config"
+	"fmt"
 )
 
 var readCmd = &cobra.Command{
@@ -12,5 +12,6 @@ var readCmd = &cobra.Command{
 	Usage: cbti list tables 
 `,
 	Run: func(cmd *cobra.Command, args []string) {
+		fmt.Printf("hii there %+v", args)
 	},
 }
